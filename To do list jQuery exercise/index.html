@@ -4,18 +4,20 @@
     <meta charset="utf-8" />
     <title>ToDo List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/style.css" />
     <script type="text/javascript" src="Assets/JS/lib/jquery-3.3.1.min.js"></script>
 </head>
 <body>
     <div id="container">
-        <h1>To-do List</h1>
-        <input type="text">
+        <h1>To-do List<span id="listIcon"><i class="far fa-edit"></i></span></h1>
+        <input type="text" placeholder="Add a new To-do">
         <ul>
-            <li><span>X </span>Tide bed</li>
-            <li><span>X </span>Strech exercises</li>
-            <li><span>X </span>Buy milk</li>
-            <li><span>X </span>Meditate</li>
+            <li><span><i class="fas fa-trash-alt"></i></span>Tide bed</li>
+            <li><span><i class="fas fa-trash-alt"></i></span>Strech exercises</li>
+            <li><span><i class="fas fa-trash-alt"></i></span>Buy milk</li>
+            <li><span><i class="fas fa-trash-alt"></i></span>Meditate</li>
         </ul>
     </div>
     <script type="text/javascript" src="Assets/JS/toDos.js"></script>
