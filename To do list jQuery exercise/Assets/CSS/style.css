@@ -1,0 +1,11 @@
+#container{
+    border: 2px solid navy;
+    width: 360px;
+    margin: 0 auto;
+}
+
+
+.checked {
+    color: gray;
+    text-decoration: line-through;
+}
